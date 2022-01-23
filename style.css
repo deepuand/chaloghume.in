@@ -1,0 +1,180 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+ul{
+    list-style: none;
+}
+.mc{
+    margin-left: 2%;
+    margin-top: 1%;
+    font-size: 35px;
+    font-weight:500;
+}
+.bc{
+    margin-left: 52%;
+    margin-top: 1%;
+}
+.bc li :hover{
+    color: blue;
+}
+.slider{
+    margin-top: -16px;
+    margin-bottom: 10px;
+}
+.button {
+    margin-left: 55%;
+    margin-top: 3%;
+    padding-top: 1.2%;
+    border-radius: 30px 30px 30px 30px;
+    background-color: blue;
+    width: 180px;
+    height: 60px;;
+}
+.button a {
+    background-color: blue;
+    margin-left: 17%;
+    color: white;
+    text-decoration: none;
+}
+.first{
+    margin-bottom: 10%;
+}
+.img{
+    margin-left: 6%;
+    margin-top: 3%;
+}
+.head1{
+    margin-left: 55%;
+    margin-top: -25%;
+    margin-bottom: 1%;
+    font-size: 25px;
+    font-weight: 800;
+    color: black;
+}
+.head2{
+    margin-left: 55%;
+    font-size: 28px;
+    font-weight: 800;
+    color: black;
+    margin-right: 7%;
+}
+.head3{
+    margin-left: 55%;
+    margin-top: 1%;
+    margin-right: 6%;
+}
+.heading1{
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 10%;
+}
+.ing1{
+    margin-left: 10%;
+}
+.heading{
+    margin-bottom: 20%;
+}
+.head23{
+    margin-left: 60%;
+    margin-top: -35%;
+}
+.para{
+    margin-left: 60%;
+    margin-top: 4%;
+    margin-right: 7%;
+}
+.button1 {
+    margin-left: 60%;
+    margin-top: 5%;
+    padding-top: 1.2%;
+    border-radius: 30px 30px 30px 30px;
+    background-color: blue;
+    width: 180px;
+    height: 60px;;
+}
+.button1 a {
+    background-color: blue;
+    margin-left: 17%;
+    color: white;
+    text-decoration: none;
+}
+@media only screen and (max-width:600px)
+{
+    .bc{
+        margin-left: 0%;
+    }
+    .img{
+        width: 400px;
+        margin-left: 100px;
+    }
+    .head1{
+        font-size: 20px;
+        margin-left: 7%;
+        margin-top: 5%;
+        margin-right: 0%;
+    }
+    .head2{
+        font-size: 25px;
+        margin-left: 7%;
+        margin-right: 8%;
+    }
+    .head3{
+        margin-left: 7%;
+        margin-right: 8%;
+    }
+    .heading1{
+        margin-left: 7%;
+    }
+    .ing1{
+        width: 500px;
+        margin-left: 7%;
+    }
+    .head23{
+        margin-left: 7%;
+        margin-right: 8%;
+        margin-top: 5%;
+        font-size: 30px;
+        color: black;
+    }
+    .para{
+        margin-left: 7%;
+        margin-right: 8%;
+    }
+    .button {
+        margin-left: 7%;
+        margin-top: 3%;
+        padding-top: 1.2%;
+        border-radius: 30px 30px 30px 30px;
+        background-color: blue;
+        width: 130px;
+        height: 40px;;
+    }
+    .button a {
+        background-color: blue;
+        margin-left: 10%;
+        color: white;
+        text-decoration: none;
+    }
+    .button1 {
+        margin-left: 7%;
+        margin-top: 3%;
+        padding-top: 1.2%;
+        border-radius: 30px 30px 30px 30px;
+        background-color: blue;
+        width: 130px;
+        height: 40px;;
+    }
+    .button1 a {
+        background-color: blue;
+        margin-left: 10%;
+        color: white;
+        text-decoration: none;
+    }
+}
